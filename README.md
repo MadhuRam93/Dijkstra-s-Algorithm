@@ -13,7 +13,13 @@ Files:
 	2. Vertex.java --> Represents a vertex in the graph	
 	3. Edge.java --> Represents an edge in the graph	
 
-Run graph.java
+How to run:
+
+Run the file graph.java from command prompt with 1 command line argument - input_file_name.txt:
+		
+		javac graph.java
+		
+		java graph input_file.txt
 
 Input file: txt file that contains initial state of the graph; Each link representing two directed edges is listed on a line, and is specifed by the names of its two vertices followed by the transmission time. Vertices are simply strings (vertex names with no spaces) and the transmission times are foating point numbers. 
 : "vertexA vertexB weight", 1 in each line 
