@@ -23,12 +23,20 @@ Use commands:
 addedge tail_vertex head_vertex transmit_time : to add a new edge
 
 deleteedge tail_vertex head_vertex : to add an edge 
+
 edgedown tail_vertex head_vertex : corresponding edge is "down" and hence, unavailable for use
-  edgeup tail_vertex head_vertex : corresponding edge is "up" and hence, available for use
-  vertexdown vertex : corresponding vertex is "down" and hence, unavailable for use
-  vertexup vertex : corresponding vertex is "up" and hence, available for use
-  path from_vertex to_vertex : query to find the shortest path from from_vertex to to_vertex
-  print : to print the content of the graph 
-  reachable: prints all vertices reachable from a given vertex
-  quit
+
+edgeup tail_vertex head_vertex : corresponding edge is "up" and hence, available for use
+  
+vertexdown vertex : corresponding vertex is "down" and hence, unavailable for use
+ 
+vertexup vertex : corresponding vertex is "up" and hence, available for use
+  
+path from_vertex to_vertex : query to find the shortest path from from_vertex to to_vertex
+  
+print : to print the content of the graph 
+  
+reachable: prints all vertices reachable from a given vertex
+  
+quit
   
