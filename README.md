@@ -20,7 +20,7 @@ two vertices followed by the transmission time. Vertices are simply strings (ver
 : "vertexA vertexB weight", 1 in each line 
 Use commands:
   addedge tail_vertex head_vertex transmit_time : to add a new edge
-  deleteedge tail_vertex head_vertex : to add an edge
+  deleteedge tail_vertex head_vertex : to add an edge 
   edgedown tail_vertex head_vertex : corresponding edge is "down" and hence, unavailable for use
   edgeup tail_vertex head_vertex : corresponding edge is "up" and hence, available for use
   vertexdown vertex : corresponding vertex is "down" and hence, unavailable for use
