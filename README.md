@@ -17,7 +17,7 @@ Run graph.java
 
 Input file: txt file that contains initial state of the graph; Each link representing two directed edges is listed on a line, and is specifed by the names of its
 two vertices followed by the transmission time. Vertices are simply strings (vertex names with no spaces) and the transmission times are foating point numbers. 
-: "vertexA vertexB weight", 1 in each line
+: "vertexA vertexB weight", 1 in each line 
 Use commands:
   addedge tail_vertex head_vertex transmit_time : to add a new edge
   deleteedge tail_vertex head_vertex : to add an edge
